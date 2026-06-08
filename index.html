@@ -2,14 +2,161 @@
 <html lang="zh-Hant">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/Logo.svg" />
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="">
-    <link rel="stylesheet" href="/src/style.css">
-    <title>2026-06-08-layout-exam</title>
+    <meta name="description" content="9/16 - 10/30 官網搶先販售，新色上市，搭載最新降噪技術，提供給您最高音質享受，採用適應性演算法，快速處理音效，讓您享受更高傳真的效果。">
+    <link href="/src/style.css" rel="stylesheet">
+    <title>INEAR PRO MAX</title>
   </head>
   <body>
-
+    <header class="flex flex-row justify-between py-4 px-3 md:px-20 items-center">
+      <a href="#"><img src="/src/assets/Logo.svg" alt="INEAR's logo"></a>
+      <ul class="hidden md:flex text-h6 color-black flex-row gap-12 ">
+        <li><a href="#">首頁</a></li>
+        <li><a href="#">最新消息</a></li>
+        <li><a href="#">商品列表</a></li>
+        <li><a href="#">關於我們</a></li>
+      </ul>
+      <div class="flex flex-row items-center gap-3">
+        <div class="p-4">
+          <a href="#" ><img src="/src/assets/Vector.svg" alt="Vector icon"></a>
+        </div>
+        <div class="md:hidden p-4">
+          <a href="#"><img src="/src/assets/Justify.svg" alt="Justify icon"></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="bg-black py-12 md:py-15 flex md:flex-row justify-end md:justify-center relative">
+        <div class="md:mr-90 hidden md:block">
+          <img src="/src/assets/Rectangle 1.svg" alt="Rectangle image" class="max-h-[514px]">
+        </div>
+        <div class="md:hidden">
+          <img src="/src/assets/mobile-earphone.svg" alt="Earphone background">
+        </div>
+        <div class="px-3 text-white max-w-[636px] absolute bottom-27 left-0 md:left-auto md:bottom-62 md:right-35 flex flex-col gap-4">
+          <h1 class="text-h1 leading-title font-bold">INEAR PRO MAX</h1>
+          <div class="text-h6 leading-text font-normal">
+            <h2>9/16 - 10/30 官網搶先販售</h2>
+            <p>新色上市，搭載最新降噪技術，提供給您最高音質享受，採用適應性演算法，快速處理音效，讓您享受更高傳真的效果。</p>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#2B2B2B] flex flex-col items-center py-15 gap-12 px-3">
+        <h2 class="text-h2 font-medium leading-text text-white">最新商品</h2>
+        <div class="md:flex md:flex-row md:gap-6">
+          <div class="flex flex-col gap-6">
+            <a href="#"><img src="/src/assets/new-earphone-image1.svg" alt="INEAR PRO II image"></a>
+            <p class="m-2 text-h6 font-medium leading-text text-white">INEAR PRO II</p>
+          </div>
+          <div class="flex flex-col gap-6">
+            <a href="#"><img src="/src/assets/new-earphone-image2.svg" alt="INEAR PRO MAX image"></a>
+            <p class="m-2 text-h6 font-medium leading-text text-white">INEAR PRO MAX</p>
+          </div>
+          <div class="flex flex-col gap-6">
+            <a href="#"><img src="/src/assets/new-earphone-image3.svg" alt="INEAR PRO I image"></a>
+            <p class="m-2 text-h6 font-medium leading-text text-white">INEAR PRO I</p>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[url(/src/assets/mobile-color-bg.svg)] md:bg-[url(/src/assets/desktop-color-bg.svg)] py-15 px-3 flex flex-col gap-12">
+        <div class="flex flex-col items-center gap-2">
+          <h2 class="text-h2 leading-title font-medium text-white">多色選擇，專屬你的與眾不同</h2>
+          <p class="text-h6 leading-text font-normal text-white">我的風格我主張，獨創品牌限定色，除了耀眼更要獨一無二</p>
+        </div>
+        <div class="hidden md:flex flex-row items-center justify-center gap-6">
+          <div class="flex flex-col gap-6">
+            <div class="grid grid-flow-col grid-rows-2 gap-6">
+              <a href="#" class="row-span-2"><img src="/src/assets/color-image1.svg" alt="Color image1"></a>
+              <a href="#" class="col-span-1"><img src="/src/assets/color-image2.svg" alt="Color image2"></a>
+              <a href="#" class="col-span-1"><img src="/src/assets/color-image3.svg" alt="Color image3"></a>
+            </div>
+            <div>
+              <a href="#"><img src="/src/assets/color-image4.svg" alt="Color image4"></a>
+            </div>
+          </div>
+          <div class="flex flex-col gap-6">
+            <a href="#"><img src="/src/assets/color-image5.svg" alt="Color image5"></a>
+            <a href="#"><img src="/src/assets/color-image6.svg" alt="Color image6"></a>
+            <a href="#"><img src="/src/assets/color-image7.svg" alt="Color image7"></a>
+          </div>
+        </div>
+        <div class="md:hidden flex flex-col items-center gap-6">
+          <a href="#"><img src="src/assets/mobile-color-image1.svg" alt="Mobile color image1"></a>
+          <a href="#"><img src="src/assets/mobile-color-image2.svg" alt="Mobile color image2"></a>
+          <a href="#"><img src="src/assets/mobile-color-image3.svg" alt="Mobile color image3"></a>
+          <a href="#"><img src="src/assets/mobile-color-image4.svg" alt="Mobile color image4"></a>
+          <a href="#"><img src="src/assets/mobile-color-image5.svg" alt="Mobile color image5"></a>
+          <a href="#"><img src="src/assets/mobile-color-image6.svg" alt="Mobile color image6"></a>
+          <a href="#"><img src="src/assets/mobile-color-image7.svg" alt="Mobile color image7"></a>
+      </section>
+      <section class="bg-grey py-[65px] px-3 flex flex-col-reverse md:flex-row justify-center gap-6 md:-mt-1">
+        <div class="flex gap-6">
+          <div class="flex flex-col gap-6 pt-12">
+            <img src="/src/assets/form-image1.svg" alt="Form image1">
+            <img src="/src/assets/form-image3.svg" alt="Form image2">
+          </div>
+          <div class="flex flex-col gap-6 pb-12">
+            <img src="/src/assets/form-image2.svg" alt="Form image3">
+            <img src="/src/assets/form-image4.svg" alt="Form image4">
+          </div>
+        </div>
+        <div class="flex flex-col gap-12">
+          <div class="flex flex-col items-center gap-12 md:gap-6 max-w-[636px]">
+            <h2 class="text-h2 text-white leading-title font-medium">訂製專屬於您的完美耳機</h2>
+            <p class="text-h6 text-white leading-text font-normal">請於下方留下您的詳細資料與訂製需求，將有專人於 3 日內聯繫，此表單僅做為客服調查，不等同於完成訂製商品。</p>
+          </div>
+          <form class="hidden md:flex text-[#ACACAC] font-normal leading-text text-h6 flex-col">
+            <label for="fname" class="text-white pb-1">姓氏</label>
+            <input type="text" id="fname" name="fname" value="請輸入姓氏" class="border border-[#DEE2E6] focus:border-white border-solid border-1.5 rounded-sm py-4 pl-3 w-full mb-6">
+            <label for="lname" class="text-white pb-1">名字</label>
+            <input type="text" id="lname" name="lname" value="請輸入名字" class="border border-[#DEE2E6] focus:border-white border-solid border-1.5 rounded-sm py-4 pl-3 w-full mb-6">
+            <label for="email" class="text-white pb-1">信箱</label>
+            <input type="text" id="email" name="email" value="請輸入信箱" class="border border-[#DEE2E6] focus:border-white border-solid border-1.5 rounded-sm py-4 pl-3 w-full mb-6">
+            <label for="lname" class="text-white pb-1">聯絡電話</label>
+            <input type="text" id="lname" name="lname" value="請輸入聯絡電話" class="border border-[#DEE2E6] focus:border-white border-solid border-1.5 rounded-sm py-4 pl-3 w-full mb-6">
+            <div class="flex justify-end">
+              <input type="submit" value="送出表單" class="bg-white text-black py-[6px] px-3 leading-text text-h6 font-normal rounded-sm hover:bg-black hover:text-white">
+            </div>
+          </form>
+          <form class="md:hidden flex flex-col gap-6">
+            <input type="text" id="fname" name="fname" value="姓氏" class="border border-[#DEE2E6] focus:border-white border-solid border-1.5 rounded-sm py-4 pl-3 w-full text-white">
+            <input type="text" id="lname" name="lname" value="名字" class="border border-[#DEE2E6] focus:border-white border-solid border-1.5 rounded-sm py-4 pl-3 w-full text-white">
+            <input type="text" id="email" name="email" value="信箱" class="border border-[#DEE2E6] focus:border-white border-solid border-1.5 rounded-sm py-4 pl-3 w-full text-white">
+            <input type="text" id="lname" name="lname" value="聯絡電話" class="border border-[#DEE2E6] focus:border-white border-solid border-1.5 rounded-sm py-4 pl-3 w-full text-white">
+            <input type="submit" value="送出表單" class="bg-white text-black py-4 px-3 leading-text text-h6 font-normal rounded-sm hover:bg-black hover:text-white">
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-black py-15 px-3">
+      <div class="pb-6 max-w-40 flex flex-col md:justify-center md:items-center">
+        <img src="/src/assets/Logo-white.svg" alt="INEAR's logo" class="flex">
+      </div>
+      <div class="flex flex-col md:items-center">
+        <ul class="flex gap-10 mb-4 md:mb-0">
+          <li><a href="https://x.com/"><img src="/src/assets/Twitter.svg" target="_blank" alt="Twitter logo"></a></li>
+          <li><a href="https://www.instagram.com/" target="_blank"><img src="/src/assets/Instagram.svg" alt="Instagram logo"></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank"><img src="/src/assets/Facebook.svg" alt="Facebook logo"></a></li>
+        </ul>
+        <hr class="hidden md:flex h-px my-12 w-25 bg-white border-0">
+      </div>
+      <div class="flex justify-between md:items-center">
+        <div class="leading-text font-normal text-white text-h6 flex flex-row md:justify-between mb-10 md:mb-0">
+          <ul class="flex flex md:flex-row gap-6">
+            <li><a href="#">最新商品</a></li>
+            <li><a href="#">多色選擇</a></li>
+            <li><a href="#">定製耳機</a></li>
+          </ul>
+          <div class="hidden leading-text font-normal text-white text-h6 md:flex">
+            <p>© WEBNAME 2024 All right Reserved</p>
+          </div>
+        </div>
+        <div class="leading-text font-normal text-white text-h6 md:hidden">
+          <p>© WEBNAME 2024 All right Reserved</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
