@@ -2,14 +2,56 @@
 <html lang="zh-Hant">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/Logo.svg" />
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="">
-    <link rel="stylesheet" href="/src/style.css">
-    <title>2026-06-08-layout-exam</title>
+    <meta name="description" content="9/16 - 10/30 官網搶先販售，新色上市，搭載最新降噪技術，提供給您最高音質享受，採用適應性演算法，快速處理音效，讓您享受更高傳真的效果。">
+    <link href="/src/style.css" rel="stylesheet">
+    <title>INEAR PRO MAX</title>
   </head>
   <body>
-
+    <header class="flex flex-row justify-between py-4 px-3 md:px-20 items-center">
+      <a href="#"><img src="/src/assets/Logo.svg" alt="INEAR's logo"></a>
+      <ul class="hidden md:flex text-h6 color-black flex-row gap-12 ">
+        <li><a href="#">首頁</a></li>
+        <li><a href="#">最新消息</a></li>
+        <li><a href="#">商品列表</a></li>
+        <li><a href="#">關於我們</a></li>
+      </ul>
+      <div class="flex flex-row items-center gap-3">
+        <div class="p-4">
+          <a href="#" ><img src="/src/assets/Vector.svg" alt="Vector icon"></a>
+        </div>
+        <div class="md:hidden p-4">
+          <a href="#"><img src="/src/assets/Justify.svg" alt="Justify icon"></a>
+        </div>
+      </div>
+    </header>
+    <footer class="bg-black py-15 px-3 flex flex-col md:items-center">
+      <div class="pb-6 max-w-40">
+        <img src="/src/assets/Logo-white.svg" alt="INEAR's logo">
+      </div>
+      <div class="flex flex-col md:items-center">
+        <ul class="flex gap-10 mb-4 md:mb-0">
+          <li><a href="https://x.com/"><img src="/src/assets/Twitter.svg" target="_blank" alt="Twitter logo"></a></li>
+          <li><a href="https://www.instagram.com/" target="_blank"><img src="/src/assets/Instagram.svg" alt="Instagram logo"></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank"><img src="/src/assets/Facebook.svg" alt="Facebook logo"></a></li>
+        </ul>
+        <hr class="hidden md:flex h-px my-12 w-25 bg-white border-0">
+        <div class="leading-text font-normal text-white text-h6 flex flex-row md:justify-between mb-10 md:mb-0">
+          <ul class="flex flex md:flex-row gap-6">
+            <li><a href="#">最新商品</a></li>
+            <li><a href="#">多色選擇</a></li>
+            <li><a href="#">定製耳機</a></li>
+          </ul>
+          <div class="hidden leading-text font-normal text-white text-h6 md:flex">
+            <p>© WEBNAME 2024 All right Reserved</p>
+          </div>
+        </div>
+        <div class="leading-text font-normal text-white text-h6 md:hidden">
+          <p>© WEBNAME 2024 All right Reserved</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
