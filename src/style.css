@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Noto Sans CJK TC", sans-serif;
+  }
+}
+
+@theme {
+  --font-display: "Noto Sans CJK TC", sans-serif;
+  --text-h1: 40px;
+  --text-h2: 32px;
+  --text-h3: 28px;
+  --text-h4: 24px;
+  --text-h5: 20px;
+  --text-h6: 16px;
+
+  --leading-title: 1.2;
+  --leading-text: 1.5;
+
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-grey: #404040;
+}
